@@ -126,6 +126,7 @@
 	width: 120px;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 	padding: 20px 0 10px 10px;
 	margin-right: -5px;
 }
@@ -172,6 +173,7 @@
 	display: block;
 	width: auto;
 	height: auto;
+	object-fit: cover;
 	min-height: 100%;
 	min-width: 100%;
 	position: absolute;
@@ -384,3 +386,252 @@
 }
 
 /*-- /Section - Testimonials --*/
+
+@media only screen and (max-width: 1280px) {
+
+/*-- Header --*/
+
+.city_link_wrapp {
+    position: relative;
+    top: -5px;
+}
+
+/*-- /Header --*/
+
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+    padding: 10px 10px 5px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+    padding: 20px 0 5px 10px;
+}
+
+.card_crane {
+    width: 235px;
+    min-height: 430px;
+}
+
+.cards_slider {
+    margin: 0 -10px;
+}
+
+.card_crane .img_box {
+    height: 156px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+.card_crane_row h3 {
+    font-size: 14px;
+}
+
+.card_crane_row p {
+    font-size: 14px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_slider {
+    padding: 14px 0 20px 0;
+}
+
+.testimonial_thumb {
+    padding: 15px;
+    width: 235px;
+    min-height: 245px;
+}
+
+.testimonial_thumb_descript p {
+    font-size: 13px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.city_link_wrapp {
+    top: 0;
+    padding: 10px 0 15px 0;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 770px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+    padding: 10px 10px 5px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+    padding: 11px 0 5px 10px;
+}
+
+.card_crane {
+    width: 216px;
+    min-height: 424px;
+}
+
+.card_crane .img_box {
+    height: 144px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_thumb {
+    padding: 15px;
+    width: 216px;
+    min-height: 245px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Header --*/
+
+.city_list li {
+    width: 100% !important;
+    padding: 2px 10px;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 11px 0;
+}
+.cards_slider {
+    height: 480px;
+}
+.card_crane {
+    width: 207px;
+    min-height: 420px;
+}
+.card_crane .img_box {
+    height: 140px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_title h3 br {
+	display: none;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faq_item_title h3 {
+    font-size: 18px;
+}
+
+.faq_item_title:after {
+    right: 0;
+}
+
+.faq_item_content p {
+    font-size: 16px;
+}
+
+/*-- /Section - FAQ --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 73px 0 52px 0;
+}
+.cards_slider {
+    height: 530px;
+}
+.card_crane {
+    width: 330px;
+    min-height: 507px;
+    margin: 0 auto;
+}
+.card_crane .img_box {
+    height: 227px;
+}
+
+.card_crane_title h3 {
+    font-size: 16px;
+}
+
+.card_crane_title h3 br {
+	display: none;
+}
+
+.card_crane_descript {
+    min-height: 138px;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faq_item {
+    margin: 20px 0;
+    padding: 0 12px 0 12px;
+}
+
+/*-- /Section - FAQ --*/
+
+/*-- Section - Testimonials --*/
+
+.testimonial_thumb {
+    width: calc(100vw - 30px);
+    min-height: 215px;
+}
+
+/*-- /Section - Testimonials --*/
+
+}

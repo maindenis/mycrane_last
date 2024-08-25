@@ -316,7 +316,7 @@ $(document).ready(function() {
           // autoplaySpeed: 4000,
           speed: 1200,
           slidesToShow: 4,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           variableWidth: true,
           prevArrow: $(".cr_sl_prev"),
           nextArrow: $(".cr_sl_next")
@@ -348,7 +348,7 @@ $(document).ready(function() {
           // autoplaySpeed: 4000,
           speed: 1200,
           slidesToShow: 4,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           variableWidth: true,
           prevArrow: $(".test_sl_prev"),
           nextArrow: $(".test_sl_next")
