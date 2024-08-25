@@ -338,6 +338,23 @@ $(document).ready(function() {
       }
     });
 
+    // --------------
+
+    if( $(".testimonial_slider").length > 0 ) {
+      $(".testimonial_slider").not(".slick-initialized").slick({
+          dots: false,
+          arrows: true,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          variableWidth: true,
+          prevArrow: $(".test_sl_prev"),
+          nextArrow: $(".test_sl_next")
+      });
+    }
+
 });
 
   function initMap() {
