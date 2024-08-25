@@ -1,0 +1,336 @@
+.city_link_wrapp {
+	text-align: center;
+}
+
+.city_link_wrapp p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 110%;
+	color: #FFF;
+}
+
+.city_link {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	position: relative;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 110%;
+	color: #FFF;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.city_link:hover {
+	color: #FFD300;
+}
+
+.city_link:after {
+	display: block;
+	content: "";
+	width: 13px;
+	height: 8px;
+	background-image: url(img/arrow_down.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+.city_list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+	padding: 10px 0 22px 0;
+}
+
+.city_list li {
+	width: 35.5%;
+	padding: 5px 10px;
+}
+
+.city_list li:nth-child(3n + 3) {
+	width: 29%;
+}
+
+.city_list li a {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: -.5px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #FFF;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.city_list li a:hover {
+	color: #FFD300;
+}
+
+/*-- Section Cards Cranes --*/
+
+.sect_c_c {
+    padding: 102px 0 47px 0;
+}
+
+.cards_slider_headewr {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards_slider_headewr > div:nth-child(1) {
+	width: calc(100% - 120px);
+	padding: 10px 10px 10px 0;
+}
+
+.cards_slider_headewr > div:nth-child(2) {
+	width: 120px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0 10px 10px;
+	margin-right: -5px;
+}
+
+.cr_sl_arrow {
+	display: block;
+	width: 44px;
+	height: 48px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.cr_sl_prev {
+	margin-right: 15px;
+}
+
+.cards_slider {
+	margin: 6px -10px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.cards_slider .slide {
+	padding: 10px;
+}
+
+.card_crane {
+	width: 305px;
+	min-height: 473px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+.card_crane .img_box {
+	display: block;
+	height: 202px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+.card_crane .img_box img {
+	display: block;
+	width: auto;
+	height: auto;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card_crane_content {
+	padding: 15px 14px 20px 14px;
+}
+
+.card_crane_title {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.card_crane_title h3 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	color: #2E2E2E;
+}
+
+.card_crane_descript {
+    min-height: 136px;
+    padding: 14px 0 0 0;
+}
+
+.card_crane_row {
+	display: flex;
+	padding: 3px 0;
+}
+
+.card_crane_row > div:nth-child(1) {
+	width: calc(100% - 30px);
+}
+
+.card_crane_row > div:nth-child(2) {
+	width: 30px;
+	text-align: right;
+}
+
+.card_crane_row h3 {
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: #919191;
+}
+
+.card_crane_row p {
+	font-family: 'Onest';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: #414141;
+}
+
+/*-- /Section Cards Cranes --*/
+
+/*-- Section - FAQ --*/
+
+.faqs {
+    padding-bottom: 67px;
+}
+
+.faq_item {
+	margin: 20px 0;
+	padding: 0 20px 0 20px;
+	background: #FFF;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.faq_item:nth-child(1) {
+	margin-top: 5px;
+}
+
+.faq_item_title {
+    padding-right: 45px;
+    position: relative;
+    cursor: pointer;
+}
+.faq_item_title:after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(img/faq_arrow.svg);
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 3px;
+    transform: rotate(0);
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+.faq_item.active .faq_item_title:after {
+    transform: rotate(-180deg);
+}
+.dr_content {
+    display: none;
+}
+.faq_item_title {
+	display: flex;
+    align-items: center;
+	min-height: 74px;
+}
+
+.faq_item_title h3 {
+	font-family: 'Tactic Sans';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	color: #2E2E2E;
+}
+
+.faq_item_content {
+	padding: 18px 0 15px 0;
+	border-top: 1px solid #E2E2E2;
+}
+
+.faq_item_content p {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: #414141;
+}
+
+/*-- /Section - FAQ --*/
+
+/*-- Section - Testimonials --*/
+
+.test_sect {
+
+}
+
+.test_sect > .row {
+	position: relative;
+	z-index: 3;
+}
+
+/*-- /Section - Testimonials --*/

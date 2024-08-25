@@ -1,0 +1,712 @@
+@media only screen and (max-width: 1280px) {
+
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    padding: 147px 0 148px 0;
+}
+
+.promo_shape {
+    top: -42px;
+}
+
+.promo_descript_usa h1 {
+    font-size: 45px;
+}
+
+.promo_descript.promo_descript_usa .main_title {
+    font-size: 95px;
+}
+
+.promo_descript.promo_descript_usa h1 span {
+    font-size: 30px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page USA --*/
+
+.register_usa_box h3 {
+    font-size: 35px;
+}
+
+.steps_two_cols > div:nth-child(2) {
+    display: flex;
+}
+
+.register_usa_tels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px 25px 15px;
+}
+
+.register_usa_tels p {
+    font-size: 16px;
+}
+
+.tel_usa {
+    font-size: 20px;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+/*-- Section 3 - Main Page --*/
+
+.three_cols .callback_form_2 {
+    margin-top: 101px;
+}
+
+.callback_form_2 {
+    padding: 38px 30px 38px 30px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 2 - About --*/
+
+.article_2 > .row {
+    padding-top: 128px;
+    min-height: 613px;
+}
+
+/*-- /Section 2 - About --*/
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 3 - Main Page USA --*/
+
+.steps_thumbs_usa {
+    margin: 8px -5px 22px -5px;
+}
+
+.steps_two_cols > div:nth-child(1) {
+    width: calc(66.66% - 10px);
+    margin: 10px 10px 10px 0;
+}
+
+.steps_two_cols > div:nth-child(2) {
+    width: calc(33.33% - 10px);
+    margin: 10px 0 10px 10px;
+}
+
+.register_usa_box {
+    padding: 15px 20px 18px 20px;
+    text-align: left;
+}
+
+.register_usa_box h3 {
+    font-size: 30px;
+}
+
+.register_usa_box .dark_pill {
+    display: inline-flex;
+    min-width: 194px;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+/*-- Section 5 - Main Page --*/
+
+.left_article .h2_wrapp h3 {
+    font-size: 30px;
+}
+
+.article_item ul li {
+    font-size: 16px;
+}
+
+.article_item ul li:before {
+    top: 7px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Section 3 - Main Page --*/
+
+.three_cols > div:nth-child(1) {
+    padding: 10px 18px 5px 0;
+}
+
+.three_cols > div:nth-child(2) {
+    padding: 10px 0 5px 15px;
+}
+
+.callback_form_2 {
+    display: flex;
+}
+
+.callback_form_2 > .left_col {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.callback_form_2 > .right_col {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.three_cols .callback_form_2 {
+    margin-top: 0;
+}
+
+.callback_form_2 .inner {
+    display: none;
+}
+
+.visible_1024 {
+    display: block;
+}
+
+.callback_form_2 .inner_2 {
+    display: block;
+}
+
+.callback_form_2 > .right_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.callback_form_2 > .right_col button {
+    margin: 7px 0;
+}
+
+.callback_form_2 > .right_col > div:nth-child(1) {
+    order: 3;
+}
+
+.callback_form_2 > .right_col > div:nth-child(3) {
+    order: 1;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    padding: 87px 0 107px 0;
+}
+
+.promo_shape {
+    top: 186px;
+}
+
+.promo_descript_usa h1 {
+    font-size: 45px;
+}
+
+.promo_descript.promo_descript_usa h1 span {
+    font-size: 30px;
+}
+
+.promo_descript.promo_descript_usa .main_title {
+    font-size: 95px;
+}
+
+.promo_shape_resp {
+    width: 360px;
+    margin-bottom: -69px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page USA --*/
+
+.grey_shape_bg:before {
+    min-height: 100%;
+}
+
+.sect_3_usa {
+    padding: 97px 0 130px 0;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+/*-- Section 4 - Main Page --*/
+
+.sect_4 {
+    padding: 77px 0 133px 0;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.reg_box {
+    margin: 150px 0 140px 0;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - About --*/
+
+.page_title_two_cols > div:nth-child(1) {
+    width: 55%;
+}
+
+.page_title_two_cols > div:nth-child(2) {
+    width: 45%;
+    text-align: right;
+}
+
+.about_article_2_wrapp {
+    padding: 90px 0 54px 0;
+}
+
+.article_2_about_img_usa {
+    height: 400px;
+}
+
+.about_article_2 h2 {
+    padding-bottom: 41px;
+    padding-top: 27px;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 2 - About --*/
+
+.article_2.article_2_usa > .row {
+    min-height: auto;
+    padding-top: 105px;
+    padding-bottom: 91px;
+}
+
+.article_2_bg {
+    display: block;
+}
+
+.article_2_img {
+    display: block;
+    width: 316px;
+}
+
+.article_2_descript h4 {
+    font-size: 24px;
+}
+
+/*-- /Section 2 - About --*/
+
+}
+
+@media only screen and (max-width: 770px) {
+
+/*-- Section 3 - Main Page USA --*/
+
+.step_thumb_usa_text p {
+    font-size: 20px;
+}
+
+.register_usa_tels {
+    padding: 25px 10px 25px 10px;
+}
+
+.register_usa_tels p {
+    font-size: 15px;
+}
+
+.callback_form_2 {
+    padding: 22px 30px 21px 30px;
+}
+
+.callback_form_2 .inner {
+    padding: 6px 0 16px 0;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Section 3 - Main Page --*/
+
+.three_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.three_cols > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.three_cols > div:nth-child(3) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.radios_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding: 5px 0 5px 0;
+}
+
+.radios_thumbs .radio_thumb {
+    margin: 10px 10px;
+    width: calc(50% - 20px);
+}
+
+.three_cols h3 {
+    white-space: nowrap;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 1 - About --*/
+
+.page_title_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.page_title_two_cols > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+}
+
+/*-- /Section 1 - About --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    padding: 87px 0 43px 0;
+}
+
+.promo_shape_resp {
+    width: 360px;
+    margin-bottom: -69px;
+}
+
+.usa_baner {
+    text-align: left;
+}
+
+.usa_baner .row {
+    padding-top: 38px;
+    padding-bottom: 39px;
+}
+
+.usa_baner_content h2 {
+    font-size: 25px;
+}
+
+.usa_baner_content h2 span {
+    font-size: 21px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page USA --*/
+
+.sect_3_usa {
+    padding: 64px 0 115px 0;
+}
+
+.steps_two_cols > div:nth-child(1) {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.steps_two_cols > div:nth-child(2) {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.step_thumb_usa_text p {
+    font-size: 18px;
+}
+
+.register_usa_tels h3 {
+    font-size: 24px;
+}
+
+.register_usa_tels p {
+    font-size: 16px;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+/*-- Section 3 - Main Page --*/
+
+.sect_3 {
+    padding: 49px 0 64px 0;
+}
+
+.callback_form_2 .left_col {
+    display: none;
+}
+
+.callback_form_2 > .right_col {
+    width: 100%;
+    padding-left: 0;
+}
+
+.callback_form_2 > .right_col .inner {
+    display: block;
+}
+
+.callback_form_2 > .right_col > div:nth-child(1) {
+    order: 3;
+}
+
+.callback_form_2 > .right_col > div:nth-child(2) {
+    order: 2;
+}
+
+.callback_form_2 > .right_col > div:nth-child(3) {
+    order: 1;
+}
+
+.callback_form_2 .inner {
+    padding: 13px 0 16px 0;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.reg_box {
+    text-align: center;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - About --*/
+
+.about_article_2_wrapp {
+    padding: 66px 0 31px 0;
+}
+
+.page_title_two_cols > div:nth-child(1) {
+    text-align: left;
+}
+
+.page_title_two_cols > div:nth-child(2) {
+    text-align: center;
+}
+
+.article_2_about_img_usa {
+    height: 255px;
+    background-position: bottom;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 2 - About --*/
+
+.article_2_img {
+    display: none;
+}
+
+/*-- /Section 2 - About --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*-- Section 2 - About --*/
+
+.soc_links_usa {
+    justify-content: center;
+}
+
+/*-- /Section 2 - About --*/
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.header_site > .right {
+    padding: 10px 0 10px 3px;
+}
+
+.white_link {
+    font-size: 13px;
+}
+
+/*-- Section 1 - Main Page --*/
+
+.promo_descript {
+    max-width: 350px;
+}
+
+.promo_descript.promo_descript_usa h1 span {
+    font-size: 21px;
+}
+
+.promo_descript.promo_descript_usa .main_title {
+    font-size: 70px;
+}
+
+.promo_descript_usa h1 {
+    font-size: 33px;
+}
+
+.promo_shape_resp {
+    width: auto;
+    max-width: 100%;
+    margin-bottom: -65px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page USA --*/
+
+.sect_3_usa.grey_shape_bg.grey_shape_bg:before {
+    height: 100%;
+    max-height: 100%;
+}
+
+.step_thumb_usa_text {
+    min-height: 75px;
+    padding-bottom: 10px;
+}
+
+.steps_thumbs_usa {
+    margin: 8px 0 7px 0;
+    padding: 0 0 18px 0;
+}
+
+.step_thumb_usa {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.step_thumb_usa {
+    min-height: 150px;
+}
+
+.register_usa_box {
+    text-align: center;
+}
+
+.register_usa_box .dark_pill {
+    min-width: 100%;
+}
+
+.register_usa_box h3 {
+    font-size: 23px;
+}
+
+/*-- /Section 3 - Main Page USA --*/
+
+/*-- Section 3 - Main Page --*/
+
+.sect_3 {
+    padding: 26px 0 46px 0;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.left_article .h2_wrapp h2 {
+    padding-bottom: 10px;
+}
+
+.left_article .h2_wrapp h3 {
+    font-size: 24px;
+}
+
+.article_item {
+    display: flex;
+}
+
+.article_item > div:nth-child(1) {
+    width: 70px;
+}
+
+.article_item > div:nth-child(2) {
+    width: calc(100% - 70px);
+    padding-top: 0;
+}
+
+.icon_box {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_box:before {
+    width: 37px;
+    height: 37px;
+}
+
+.icon_box img {
+    max-width: 42%;
+}
+
+.article_item h3 {
+    padding: 6px 0 15px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.reg_box {
+    margin: 125px 0 119px 0;
+}
+
+.reg_box .inner h2 {
+    font-size: 24px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - About --*/
+
+.page_title_two_cols h1 {
+    font-size: 30px;
+}
+
+.article_2_about_img_usa {
+    height: 197px;
+}
+
+.about_article_2 h2 {
+    padding-bottom: 35px;
+    padding-top: 14px;
+}
+
+.about_article_2_wrapp {
+    padding: 56px 0 18px 0;
+}
+
+.about_article_2_usa .article_2_item p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 2 - About --*/
+
+.article_2_descript h4 {
+    font-size: 20px;
+}
+
+.article_2_descript ul {
+    padding: 6px 0;
+}
+
+/*-- /Section 2 - About --*/
+
+}
