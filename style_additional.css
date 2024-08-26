@@ -635,3 +635,52 @@
 /*-- /Section - Testimonials --*/
 
 }
+
+/*-- Section - Tags --*/
+
+.tags_wrapp {
+	margin-bottom: 30px;
+	padding: 20px 25px 40px 25px;
+}
+
+.tags_list_yellow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tags_list_yellow li {
+	padding: 5px;
+}
+
+.tags_list_yellow li a {
+	padding: 5px 10px;
+}
+
+
+/*-- /Section - Tags --*/
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section - Tags --*/
+
+.tags_wrapp {
+	margin-bottom: 30px;
+    padding: 15px 10px 15px 10px;
+}
+
+/*-- /Section - Tags --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+/*-- Section - Tags --*/
+
+.tags_list_yellow li {
+    padding: 2px;
+}
+
+/*-- /Section - Tags --*/
+
+}
